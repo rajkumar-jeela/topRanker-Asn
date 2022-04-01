@@ -1,0 +1,87 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.buttons-container {
+  margin-top: 30px;
+  margin-bottom: none;
+}
+
+.button {
+  margin-right: 30px;
+
+  padding: 8px 15px 8px 15px;
+  cursor: pointer;
+}
+
+.contacts-table {
+  padding-left: 0;
+
+  width: 80%;
+  max-width: 1110px;
+}
+
+.table-header {
+  display: flex;
+  background-color: #f1f5f9;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.separator-off {
+  margin: 15px;
+  border: 1px solid #cbd5e1;
+}
+
+.separator {
+  margin: 0;
+  border: 1px solid #cbd5e1;
+}
+.table-header-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 32px;
+}
+
+.input {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+  border: none;
+  background-color: transparent;
+}
+.alignments {
+  padding: 8px;
+}
+.input-fields {
+  display: flex;
+  justify-content: space-between;
+}
+.username-input-filed {
+  border: none;
+  width: 35%;
+  background-color: transparent;
+}
+.dob {
+  border: none;
+  width: 30%;
+  background-color: transparent;
+  margin-left: 50px;
+  margin-right: none;
+}
+.email {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.name {
+  margin-right: 30px;
+}
+.country-select {
+}

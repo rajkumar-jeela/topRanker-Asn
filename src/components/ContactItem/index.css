@@ -1,0 +1,25 @@
+.contacts-table {
+  padding-left: 0;
+
+  width: 80%;
+  max-width: 1110px;
+}
+
+.table-header {
+  display: flex;
+  background-color: #f1f5f9;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.separator-off {
+  margin: 15px;
+  border: 1px solid #cbd5e1;
+}
+
+.separator {
+  margin: 0;
+  border: 1px solid #cbd5e1;
+}
